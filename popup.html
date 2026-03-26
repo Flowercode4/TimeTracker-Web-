@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      background-color: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h2 { font-weight: 500; font-size: 18px; letter-spacing: -0.5px; }
+    input {
+      width: 100%;
+      background: #1c1c1e;
+      border: 1px solid #3a3a3c;
+      border-radius: 8px;
+      color: #fff;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      outline: none;
+    }
+    button {
+      width: 100%;
+      background: #fff;
+      color: #000;
+      border: none;
+      padding: 10px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    button:hover { opacity: 0.8; }
+    #result {
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: 200;
+      text-align: center;
+    }
+    .label { color: #8e8e93; font-size: 12px; text-transform: uppercase; margin-bottom: 5px; }
+  </style>
+</head>
+<body>
+  <h2>Time Tracker</h2>
+  <div class="label">Enter Domain</div>
+  <input type="text" id="siteInput" placeholder="example.com">
+  <button id="checkBtn">Show Time</button>
+  <div id="result">0h 0m</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
