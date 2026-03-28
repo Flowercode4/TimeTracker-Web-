@@ -1,5 +1,5 @@
 # Info
-This is a minimalistic extension with support for many browsers that counts your browsing time and stores it in your chrome.storage
+This is a minimalistic extension with support for many browsers that counts your browsing time and stores it in your chrome.storage.local
 # Compatibility
 - Google Chrome, Opera, Brave, Vivaldi, Yandex Browser
 - And other Chromium-based browsers.
