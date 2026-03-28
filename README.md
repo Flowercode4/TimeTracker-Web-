@@ -4,7 +4,7 @@ This is a minimalistic extension with support for many browsers that counts your
 - Google Chrome, Opera, Brave, Vivaldi, Yandex Browser
 - And other Chromium-based browsers.
 # Installation
-Download the latest release (.zip) from the [Releases](https://github.com/Flowercode4/TimeTracker-Web-/releases) page
+Download the latest release (.zip/.rar) from the [Releases](https://github.com/Flowercode4/TimeTracker-Web-/releases) page
 
 Unpack the archive to a local folder.
 
