@@ -36,4 +36,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   siteInput.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') checkBtn.click();
   });
+  
+  setInterval(() => {
+    const domain = siteInput.value.trim().replace('www.', '');
+    if (domain) showTime(domain);
+  }, 1000);
 });
